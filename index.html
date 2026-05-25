@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UrbanCart | Ecommerce Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="#">UrbanCart</a>
+
+      <div class="nav-links" aria-label="Primary navigation">
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Collections</a>
+        <a href="#">Deals</a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="icon-button" aria-label="Search">Search</button>
+        <button class="cart-button" aria-label="Shopping cart">Cart <span>2</span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">New season essentials</p>
+        <h1>Upgrade your everyday style.</h1>
+        <p class="hero-copy">Shop curated fashion, smart accessories, and home favorites with fast delivery and simple returns.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#products">Shop Now</a>
+          <a class="secondary-button" href="#collections">Explore Collections</a>
+        </div>
+      </div>
+
+      <div class="hero-panel" aria-label="Featured offer">
+        <span class="discount">30% OFF</span>
+        <h2>Weekend Drop</h2>
+        <p>Fresh picks under $99 for a cleaner, sharper wardrobe.</p>
+      </div>
+    </section>
+
+    <section class="features" aria-label="Store benefits">
+      <article>
+        <strong>Free Shipping</strong>
+        <span>On orders over $75</span>
+      </article>
+      <article>
+        <strong>Secure Payment</strong>
+        <span>Encrypted checkout</span>
+      </article>
+      <article>
+        <strong>Easy Returns</strong>
+        <span>30-day return window</span>
+      </article>
+      <article>
+        <strong>24/7 Support</strong>
+        <span>Help when you need it</span>
+      </article>
+    </section>
+
+    <section id="collections" class="section-header">
+      <p class="eyebrow">Popular categories</p>
+      <h2>Shop by collection</h2>
+    </section>
+
+    <section class="collections-grid">
+      <a class="collection-card fashion" href="#">
+        <span>Fashion</span>
+        <strong>Minimal layers</strong>
+      </a>
+      <a class="collection-card tech" href="#">
+        <span>Tech</span>
+        <strong>Daily gadgets</strong>
+      </a>
+      <a class="collection-card home" href="#">
+        <span>Home</span>
+        <strong>Warm details</strong>
+      </a>
+    </section>
+
+    <section id="products" class="shop-layout">
+      <aside class="filters" aria-label="Product filters">
+        <h2>Filters</h2>
+        <div class="filter-group">
+          <h3>Category</h3>
+          <label><input type="checkbox" checked> Clothing</label>
+          <label><input type="checkbox"> Accessories</label>
+          <label><input type="checkbox"> Home Goods</label>
+          <label><input type="checkbox"> Electronics</label>
+        </div>
+        <div class="filter-group">
+          <h3>Price</h3>
+          <label><input type="radio" name="price" checked> Under $50</label>
+          <label><input type="radio" name="price"> $50 - $100</label>
+          <label><input type="radio" name="price"> $100+</label>
+        </div>
+      </aside>
+
+      <section class="products-area" aria-label="Featured products">
+        <div class="products-topbar">
+          <div>
+            <p class="eyebrow">Best sellers</p>
+            <h2>Featured products</h2>
+          </div>
+          <select aria-label="Sort products">
+            <option>Sort by Popular</option>
+            <option>Price: Low to High</option>
+            <option>Newest First</option>
+          </select>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-image product-1"></div>
+            <div class="product-info">
+              <span class="product-category">Outerwear</span>
+              <h3>Everyday Bomber Jacket</h3>
+              <div class="product-footer">
+                <strong>$89.00</strong>
+                <button>Add</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image product-2"></div>
+            <div class="product-info">
+              <span class="product-category">Accessories</span>
+              <h3>Canvas Travel Tote</h3>
+              <div class="product-footer">
+                <strong>$42.00</strong>
+                <button>Add</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image product-3"></div>
+            <div class="product-info">
+              <span class="product-category">Audio</span>
+              <h3>Wireless Studio Buds</h3>
+              <div class="product-footer">
+                <strong>$64.00</strong>
+                <button>Add</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image product-4"></div>
+            <div class="product-info">
+              <span class="product-category">Home</span>
+              <h3>Ceramic Desk Lamp</h3>
+              <div class="product-footer">
+                <strong>$58.00</strong>
+                <button>Add</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image product-5"></div>
+            <div class="product-info">
+              <span class="product-category">Footwear</span>
+              <h3>Street Knit Sneakers</h3>
+              <div class="product-footer">
+                <strong>$76.00</strong>
+                <button>Add</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image product-6"></div>
+            <div class="product-info">
+              <span class="product-category">Kitchen</span>
+              <h3>Matte Pour-Over Set</h3>
+              <div class="product-footer">
+                <strong>$35.00</strong>
+                <button>Add</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <a class="brand" href="#">UrbanCart</a>
+      <p>Curated goods for modern daily life.</p>
+    </div>
+    <form class="newsletter">
+      <label for="email">Get new drops and deals</label>
+      <div>
+        <input id="email" type="email" placeholder="Email address">
+        <button type="submit">Subscribe</button>
+      </div>
+    </form>
+  </footer>
+</body>
+</html>
